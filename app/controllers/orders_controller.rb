@@ -1,5 +1,6 @@
 class OrdersController < ApplicationController
-
+  include ActionView::Helpers::NumberHelper
+  
   def show
     @order = Order.find(params[:id])
   end
