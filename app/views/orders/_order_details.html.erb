@@ -1,0 +1,34 @@
+<header class="page-header jumbotron">
+    <h2 class="primary">Order #<%= @order.id %> </h2>
+
+    <% @order.line_items.each do |item|  %>
+
+    <div class="card mb-3" style="max-width: 540px;">
+       <div class="row g-0">
+        <div class="col-md-4">
+      <%= image_tag(item.product.image, class: 'img-fluid rounded-start', height: 120, width:120) %>
+        </div>
+        <div class="col-md-8">
+        <div class="card-body ">
+
+        <h5 class="card-title"><%= item.product.name %></h5>
+        <p class="card-text">Description <%= item.product.description %></p>
+
+        <p class="card-text">
+        <small class="text-muted">Quantity: <%= item.quantity %></small>
+
+        <small class="text-muted">Unit Price: <%= item.product.price %></small>
+
+        <small class="text-muted">Total Price:<%= item.product.price * item.quantity %> </small>
+        </p>
+        </div>
+        </div>
+        </div>
+      </div>
+      
+    <% end %>
+
+    <h3>Total Amount: <%= @order.total_cents %> </h3>
+    <h3>Email used to order: <%= @order.email%>  </h3>
+    
+</header>
