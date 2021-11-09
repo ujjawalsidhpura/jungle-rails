@@ -1,3 +1,17 @@
+<%if enhanced_cart.length == 0 %>
+
+<div class="alert alert-danger" role="alert">
+  <h4 class="alert-heading">Cart is Empty</h4>
+  <p>Please go back to the products page and add items to the cart.
+  </p>
+  <hr>
+  <button type="button" class="btn btn-light">
+      <%= link_to 'Home', :root %> 
+  </button>
+</div>
+  
+<% else %>
+
 <section class="cart-show">
 
   <header class="page-header">
@@ -50,3 +64,5 @@
   </div>
 
 </section>
+
+<% end %>
