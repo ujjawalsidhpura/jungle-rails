@@ -54,8 +54,11 @@
         <% if current_user %>
 
         
-        <li>Welcome, <%= current_user.name %></li>
-        <li><%= link_to "Logout", '/logout' %> </li>
+        
+        <li class="logged-in">
+        <span> Welcome, <%= current_user.name %> </span>
+        <%= link_to "Logout", '/logout' %> 
+        </li>
 
         <% else %>
 
