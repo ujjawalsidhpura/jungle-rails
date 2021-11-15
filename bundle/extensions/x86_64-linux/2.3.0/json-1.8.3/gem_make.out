@@ -1,0 +1,19 @@
+current directory: /vagrant/jungle-rails/bundle/gems/json-1.8.3/ext/json
+/home/vagrant/.rvm/rubies/ruby-2.3.5/bin/ruby -I /home/vagrant/.rvm/rubies/ruby-2.3.5/lib/ruby/site_ruby/2.3.0 -r ./siteconf20211115-8041-fa5xb4.rb extconf.rb
+creating Makefile
+
+current directory: /vagrant/jungle-rails/bundle/gems/json-1.8.3/ext/json
+make DESTDIR\= clean
+make: Warning: File 'Makefile' has modification time 170 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+current directory: /vagrant/jungle-rails/bundle/gems/json-1.8.3/ext/json
+make DESTDIR\=
+make: Warning: File 'Makefile' has modification time 170 s in the future
+make: Nothing to be done for 'all'.
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+current directory: /vagrant/jungle-rails/bundle/gems/json-1.8.3/ext/json
+make DESTDIR\= install
+make: Warning: File 'Makefile' has modification time 170 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.

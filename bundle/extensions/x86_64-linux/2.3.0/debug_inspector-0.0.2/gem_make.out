@@ -1,0 +1,21 @@
+current directory: /vagrant/jungle-rails/bundle/gems/debug_inspector-0.0.2/ext/debug_inspector
+/home/vagrant/.rvm/rubies/ruby-2.3.5/bin/ruby -I /home/vagrant/.rvm/rubies/ruby-2.3.5/lib/ruby/site_ruby/2.3.0 -r ./siteconf20211115-8041-1r98e7q.rb extconf.rb
+creating Makefile
+
+current directory: /vagrant/jungle-rails/bundle/gems/debug_inspector-0.0.2/ext/debug_inspector
+make DESTDIR\= clean
+make: Warning: File 'Makefile' has modification time 170 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+current directory: /vagrant/jungle-rails/bundle/gems/debug_inspector-0.0.2/ext/debug_inspector
+make DESTDIR\=
+make: Warning: File 'Makefile' has modification time 170 s in the future
+compiling debug_inspector.c
+linking shared-object debug_inspector.so
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+current directory: /vagrant/jungle-rails/bundle/gems/debug_inspector-0.0.2/ext/debug_inspector
+make DESTDIR\= install
+make: Warning: File 'Makefile' has modification time 170 s in the future
+/usr/bin/install -m 0755 debug_inspector.so ./.gem.20211115-8041-1mdxj4w
+make: warning:  Clock skew detected.  Your build may be incomplete.

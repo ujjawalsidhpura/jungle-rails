@@ -1,0 +1,37 @@
+current directory: /vagrant/jungle-rails/bundle/gems/puma-3.5.2/ext/puma_http11
+/home/vagrant/.rvm/rubies/ruby-2.3.5/bin/ruby -I /home/vagrant/.rvm/rubies/ruby-2.3.5/lib/ruby/site_ruby/2.3.0 -r ./siteconf20211115-8041-zqpva7.rb extconf.rb
+checking for BIO_read() in -lcrypto... yes
+checking for SSL_CTX_new() in -lssl... yes
+checking for openssl/bio.h... yes
+creating Makefile
+
+current directory: /vagrant/jungle-rails/bundle/gems/puma-3.5.2/ext/puma_http11
+make DESTDIR\= clean
+make: Warning: File 'Makefile' has modification time 170 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+current directory: /vagrant/jungle-rails/bundle/gems/puma-3.5.2/ext/puma_http11
+make DESTDIR\=
+make: Warning: File 'Makefile' has modification time 170 s in the future
+compiling io_buffer.c
+compiling mini_ssl.c
+mini_ssl.c: In function ‘engine_init_server’:
+mini_ssl.c:161:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   DH *dh = get_dh1024();
+   ^
+mini_ssl.c:165:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   EC_KEY *ecdh = EC_KEY_new_by_curve_name(NID_secp521r1);
+   ^
+compiling puma_http11.c
+compiling http11_parser.c
+In file included from ext/puma_http11/http11_parser.rl:7:0:
+ext/puma_http11/http11_parser.rl: In function ‘puma_parser_execute’:
+ext/puma_http11/http11_parser.rl:111:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+linking shared-object puma/puma_http11.so
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+current directory: /vagrant/jungle-rails/bundle/gems/puma-3.5.2/ext/puma_http11
+make DESTDIR\= install
+make: Warning: File 'Makefile' has modification time 169 s in the future
+/usr/bin/install -m 0755 puma_http11.so ./.gem.20211115-8041-5yzprs/puma
+make: warning:  Clock skew detected.  Your build may be incomplete.

@@ -1,0 +1,25 @@
+current directory: /vagrant/jungle-rails/bundle/gems/byebug-9.0.5/ext/byebug
+/home/vagrant/.rvm/rubies/ruby-2.3.5/bin/ruby -I /home/vagrant/.rvm/rubies/ruby-2.3.5/lib/ruby/site_ruby/2.3.0 -r ./siteconf20211115-8041-1bw02w8.rb extconf.rb
+creating Makefile
+
+current directory: /vagrant/jungle-rails/bundle/gems/byebug-9.0.5/ext/byebug
+make DESTDIR\= clean
+make: Warning: File 'Makefile' has modification time 171 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+current directory: /vagrant/jungle-rails/bundle/gems/byebug-9.0.5/ext/byebug
+make DESTDIR\=
+make: Warning: File 'Makefile' has modification time 171 s in the future
+compiling locker.c
+compiling byebug.c
+compiling context.c
+compiling breakpoint.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+current directory: /vagrant/jungle-rails/bundle/gems/byebug-9.0.5/ext/byebug
+make DESTDIR\= install
+make: Warning: File 'Makefile' has modification time 170 s in the future
+/usr/bin/install -m 0755 byebug.so ./.gem.20211115-8041-x08qdu/byebug
+make: warning:  Clock skew detected.  Your build may be incomplete.

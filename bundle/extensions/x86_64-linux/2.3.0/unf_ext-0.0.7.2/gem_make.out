@@ -1,0 +1,24 @@
+current directory: /vagrant/jungle-rails/bundle/gems/unf_ext-0.0.7.2/ext/unf_ext
+/home/vagrant/.rvm/rubies/ruby-2.3.5/bin/ruby -I /home/vagrant/.rvm/rubies/ruby-2.3.5/lib/ruby/site_ruby/2.3.0 -r ./siteconf20211115-8041-1pn134w.rb extconf.rb
+checking for main() in -lstdc++... yes
+creating Makefile
+
+current directory: /vagrant/jungle-rails/bundle/gems/unf_ext-0.0.7.2/ext/unf_ext
+make DESTDIR\= clean
+make: Warning: File 'Makefile' has modification time 170 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+current directory: /vagrant/jungle-rails/bundle/gems/unf_ext-0.0.7.2/ext/unf_ext
+make DESTDIR\=
+make: Warning: File 'Makefile' has modification time 170 s in the future
+compiling unf.cc
+cc1plus: warning: command line option ‘-Wdeclaration-after-statement’ is valid for C/ObjC but not for C++
+cc1plus: warning: command line option ‘-Wimplicit-function-declaration’ is valid for C/ObjC but not for C++
+linking shared-object unf_ext.so
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+current directory: /vagrant/jungle-rails/bundle/gems/unf_ext-0.0.7.2/ext/unf_ext
+make DESTDIR\= install
+make: Warning: File 'Makefile' has modification time 168 s in the future
+/usr/bin/install -m 0755 unf_ext.so ./.gem.20211115-8041-omez2b
+make: warning:  Clock skew detected.  Your build may be incomplete.
