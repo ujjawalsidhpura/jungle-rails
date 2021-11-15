@@ -16,6 +16,19 @@ class SessionsController < ApplicationController
 
   end
 
+  ##Created for testing RSpec
+  # def create
+  #   # If the user exists AND the password entered is correct.
+  #   if user = User.authenticate_with_credentials(params[:email], params[:password])
+  
+  #     session[:user_id] = user.id
+  #     redirect_to '/'
+  #   else
+   
+  #   redirect_to '/login', :notice => "Login error occured. Please try again"
+  #   end
+  # end
+
   def destroy
     session[:user_id] = nil
     redirect_to '/login'
