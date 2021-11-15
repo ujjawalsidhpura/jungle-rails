@@ -31,10 +31,10 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 
 ## Highlights
 
-| !["App "]() |
-| :---------: |
-|    _App_    |
+| !["App "](<https://github.com/ujjawalsidhpura/jungle-rails/blob/master/docs/ezgif.com-gif-maker%20(4).gif?raw=true>) |
+| :------------------------------------------------------------------------------------------------------------------: |
+|                                                        _App_                                                         |
 
-| !["Test result"]() |
-| :----------------: |
-|  _Testing Result_  |
+| !["Test result"](https://github.com/ujjawalsidhpura/jungle-rails/blob/master/docs/RSpec.png?raw=true) |
+| :---------------------------------------------------------------------------------------------------: |
+|                                           _Testing Result_                                            |
